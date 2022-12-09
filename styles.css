@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://1.bp.blogspot.com/-kEN6jNUhdYU/TyfhMq-pYSI/AAAAAAAAD8Y/L12Po8LEo5Y/s1600/body_background.jpg");
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.sketchbox {
+    height: 960px;
+    width: 960px;
+    border: 1px dashed #a9a9a9;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    height: 60px;
+    width: 60px;
+    border: 1px dashed #a9a9a9;
+}
