@@ -2,6 +2,7 @@
 function createGrid() {
     
     const sketchBox = document.querySelector(".sketchbox");
+    sketchBox.innerHTML = "";
     
     for (let i = 0; i < 16; i++) {
         //Create a row container at the start of every row and set as flex container
